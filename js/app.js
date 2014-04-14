@@ -30,22 +30,22 @@ $(document).ready(function() {
   });
 
 
-  $('body').keyDown(function(e) {
+  $('body').keydown(function(e) {
   	if (e.keyCode==88) {
   		$('.ryu-still').hide();
   		$('.ryu-ready').hide();
-    	$('.ryu-throwing').hide;
+    	$('.ryu-throwing').hide();
   		$('.ryu-cool').show();	
   	}
 
    });
 
-    $('body').keyUp(function(e) {
+    $('body').keyup(function(e) {
   	if (e.keyCode==88) {
   		$('.ryu-cool').hide();
   		$('.ryu-ready').hide();
-    	$('.ryu-throwing').hide;
-  		$('.ryu-still').show();	
+    	$('.ryu-throwing').hide();
+    	$('.ryu-still').show();	
   	}
 
    });
